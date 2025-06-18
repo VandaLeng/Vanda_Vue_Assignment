@@ -1,10 +1,8 @@
+<!-- src/App.vue -->
 <template>
   <div class="w-[1500px] m-auto">
-    <!-- Include Nav component -->
     <NavVue />
-
-    <!-- This is where routed pages show -->
-    <div class="bg-amber-200 p-4 rounded mt-4">
+    <div class="bg-amber-200 p-4 rounded">
       <router-view></router-view>
     </div>
   </div>
