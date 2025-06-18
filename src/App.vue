@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <img src="/src/assets/Vespa.jpg" alt="Logo" class="w-24 h-24 m-auto mt-6" />
+  <div class="flex items-center gap-4 bg-amber-200 w-[1500px] m-auto p-4 rounded">
+    <img src="/src/assets/Vespa.jpg" alt="Logo" class="w-16 h-16 rounded-full" />
 
-    <h1 class="text-center font-semibold bg-amber-200 w-400 m-auto p-4">
-      Hello world
+    <h1 class="text-xl font-semibold">
+      La Vespa
     </h1>
-
-    <WelcomeItemVue />
   </div>
+
+  <WelcomeItemVue />
 </template>
 
 <script setup>
